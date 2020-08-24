@@ -7,7 +7,13 @@ const NavigationBar = () => (
     <S.LeftSide>
       <S.LogoContainer src={logo} />
     </S.LeftSide>
-    <S.RightSide></S.RightSide>
+    <S.RightSide>
+      <S.NavigationLink>Home</S.NavigationLink>
+      <S.NavigationLink>Find a doctor</S.NavigationLink>
+      <S.NavigationLink>Apps</S.NavigationLink>
+      <S.NavigationLink>Testimonials</S.NavigationLink>
+      <S.NavigationLink>About us</S.NavigationLink>
+    </S.RightSide>
   </S.Wrapper>
 );
 
