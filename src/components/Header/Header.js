@@ -1,5 +1,6 @@
 import React from "react";
 import * as S from "./header.styled";
+import Button from "../Button/Button";
 import illustration from "../../assets/illustration.png";
 
 const Header = () => (
@@ -10,6 +11,9 @@ const Header = () => (
         Trafalgar provides progressive, and affordable healthcare, accessible on
         mobile and online for everyone
       </S.HeaderText>
+      <S.ButtonContainer>
+        <Button isBlue>Consult now</Button>
+      </S.ButtonContainer>
     </S.HeaderDescription>
     <S.HeaderImageConatiner>
       <S.HeaderImage src={illustration} />

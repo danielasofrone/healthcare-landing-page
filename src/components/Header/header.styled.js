@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const HeaderContainer = styled.div`
   display: flex;
   flex-direction: row;
-  margin-top: 40px;
-  top: 50%;
+  justify-content: space-between;
+  margin-top: 50px;
 `;
 
 export const HeaderDescription = styled.div`
-  width: 445px;
-  height: 338px;
+  max-width: 445px;
+  max-height: 338px;
 `;
 
 export const HeaderTitle = styled.div`
@@ -30,9 +30,13 @@ export const HeaderText = styled.div`
   color: #7d7987;
 `;
 
+export const ButtonContainer = styled.div`
+  margin-top: 30px;
+`;
+
 export const HeaderImageConatiner = styled.div`
-  width: 693px;
-  height: 598px;
+  max-width: 693px;
+  max-height: 598px;
 `;
 
 export const HeaderImage = styled.img`
