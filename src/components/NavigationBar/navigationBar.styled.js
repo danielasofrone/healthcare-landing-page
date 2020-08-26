@@ -9,7 +9,9 @@ export const Wrapper = styled.div`
   justify-content: space-between;
 `;
 
-export const LeftSide = styled.div``;
+export const LeftSide = styled.div`
+  cursor: pointer;
+`;
 
 export const NavigationLink = styled.div`
   font-family: "Mulish";
@@ -17,7 +19,8 @@ export const NavigationLink = styled.div`
   line-height: 23px;
   color: #1f1534;
   opacity: 0.5;
-  margin-left: 10px;
+  margin-left: 20px;
+  cursor: pointer;
 `;
 export const LogoContainer = styled.img`
   width: 160px;

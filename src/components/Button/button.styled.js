@@ -11,4 +11,5 @@ export const Button = styled.div`
   color: ${({ isBlue }) => (isBlue ? "#ffffff" : "#458ff6")};
   border-radius: 55px;
   background: ${({ isBlue }) => (isBlue ? "#458ff6" : "#ffffff")};
+  cursor: pointer;
 `;
