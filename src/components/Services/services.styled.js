@@ -10,17 +10,20 @@ export const Wrapper = styled.div`
 export const DecorationBackgroundContainer = styled.div`
   width: 1120px;
   height: 970px;
-  margin-left: -120px;
 `;
 
-export const DecorationBackground = styled.div`
+export const DecorationBackground = styled.svg`
   width: 940px;
   height: 670px;
-  left: -20.42px;
-  top: 965px;
+  display: block;
+  position: absolute;
   opacity: 0.6;
-  transform: rotate(21.46deg);
-  object-fit: cover;
+  left: -50px;
+  right: auto;
+  margin-top: 300px;
+  background-size: contain;
+  z-index: 1;
+  background-repeat: no-repeat;
 `;
 
 export const ServicesTitle = styled.div`

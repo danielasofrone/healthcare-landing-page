@@ -1,6 +1,6 @@
 import React from "react";
 import * as S from "./navigationBar.styled";
-import logo from "../../assets/icons/logo.png";
+import logo from "../../assets/icons/logo.svg";
 
 const NavigationBar = () => (
   <S.Wrapper>

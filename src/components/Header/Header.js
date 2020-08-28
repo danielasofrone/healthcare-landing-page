@@ -1,7 +1,7 @@
 import React from "react";
 import * as S from "./header.styled";
 import Button from "../Button/Button";
-import illustration from "../../assets/img/illustration.png";
+import illustration from "../../assets/img/illustration.svg";
 
 const Header = () => (
   <S.HeaderContainer>

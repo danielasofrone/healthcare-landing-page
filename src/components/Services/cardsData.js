@@ -1,9 +1,9 @@
-import search from "../../assets/img/search.png";
-import pharmacy from "../../assets/img/pharmacy.png";
-import consultation from "../../assets/img/consultation.png";
-import details from "../../assets/img/details.png";
-import emergency from "../../assets/img/emergency.png";
-import tracking from "../../assets/img/tracking.png";
+import search from "../../assets/img/search.svg";
+import pharmacy from "../../assets/img/pharmacy.svg";
+import consultation from "../../assets/img/consultation.svg";
+import details from "../../assets/img/details.svg";
+import emergency from "../../assets/img/emergency.svg";
+import tracking from "../../assets/img/tracking.svg";
 
 export const cardsData = [
   {
