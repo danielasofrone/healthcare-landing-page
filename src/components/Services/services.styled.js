@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 50px 70px;
+  margin: 120px 70px;
   z-index: 99;
 `;
 
@@ -49,7 +49,7 @@ export const LimitingLine = styled.div`
   border-bottom: 2px solid #000;
   height: auto;
   width: 56px;
-  margin: 35px auto;
+  margin: ${({ isServices }) => (isServices ? "35px auto" : "35px 0")};
 `;
 
 export const CardsContainer = styled.div`
@@ -63,4 +63,8 @@ export const CardsContainer = styled.div`
     grid-template-columns: repeat(3, 1fr);
     overflow-x: initial;
   }
+`;
+
+export const ButtonContainer = styled.div`
+  margin: 70px auto;
 `;

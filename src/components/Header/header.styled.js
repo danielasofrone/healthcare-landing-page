@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const HeaderContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-top: 50px;
+  /* justify-content: space-between; */
+  margin: ${({ isHeader }) => (isHeader ? "100px 0 50px 0" : "120px 0")};
 `;
 
 export const HeaderDescription = styled.div`

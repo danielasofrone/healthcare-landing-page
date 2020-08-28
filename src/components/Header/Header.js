@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 import illustration from "../../assets/img/illustration.svg";
 
 const Header = () => (
-  <S.HeaderContainer>
+  <S.HeaderContainer isHeader>
     <S.HeaderDescription>
       <S.HeaderTitle>Virtual Healthcare for you</S.HeaderTitle>
       <S.HeaderText>

@@ -1,8 +1,9 @@
 import React from "react";
 import * as S from "./services.styled";
 import vector from "../../assets/img/vector.svg";
-import ServicesCard from "../ServicesCard/ServicesCard";
-import { cardsData } from "./cardsData";
+import ServicesCard from "../Cards/ServicesCard";
+import Button from "../Button/Button";
+import { servicesCards } from "./cardsData";
 
 const Services = () => (
   <>
@@ -11,7 +12,7 @@ const Services = () => (
     </div>
     <S.Wrapper>
       <S.ServicesTitle>Our services</S.ServicesTitle>
-      <S.LimitingLine />
+      <S.LimitingLine isServices />
       <S.ServicesDescription>
         We provide to you the best choiches for you. Adjust it to your health
         needs and make sure your undergo treatment with our highly qualified
@@ -19,7 +20,7 @@ const Services = () => (
         your health
       </S.ServicesDescription>
       <S.CardsContainer>
-        {cardsData.map((card) => (
+        {servicesCards.map((card) => (
           <ServicesCard
             key={card.id}
             image={card.image}
@@ -28,6 +29,9 @@ const Services = () => (
           />
         ))}
       </S.CardsContainer>
+      <S.ButtonContainer>
+        <Button>Learn more</Button>
+      </S.ButtonContainer>
     </S.Wrapper>
   </>
 );

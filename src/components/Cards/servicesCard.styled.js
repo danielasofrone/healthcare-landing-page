@@ -26,6 +26,7 @@ export const CardTitle = styled.div`
   line-height: 56px;
   color: #000000;
   margin-bottom: 10px;
+  cursor: pointer;
 `;
 
 export const CardDescription = styled.div`
