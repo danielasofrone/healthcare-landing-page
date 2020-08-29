@@ -6,7 +6,7 @@ import download_app_illustration from "../../assets/img/download_app_illustratio
 
 const DownloadApp = () => (
   <S.HeaderContainer>
-    <S.HeaderDescription>
+    <S.HeaderDescription isLeft>
       <S.HeaderTitle>Download our mobile apps</S.HeaderTitle>
       <C.LimitingLine />
       <S.HeaderText>
@@ -18,9 +18,9 @@ const DownloadApp = () => (
         <Button>Download &darr;</Button>
       </S.ButtonContainer>
     </S.HeaderDescription>
-    <S.HeaderImageConatiner>
+    <S.HeaderImageContainer>
       <S.HeaderImage src={download_app_illustration} />
-    </S.HeaderImageConatiner>
+    </S.HeaderImageContainer>
   </S.HeaderContainer>
 );
 

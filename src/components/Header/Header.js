@@ -5,7 +5,7 @@ import illustration from "../../assets/img/illustration.svg";
 
 const Header = () => (
   <S.HeaderContainer isHeader>
-    <S.HeaderDescription>
+    <S.HeaderDescription isHeader isLeft>
       <S.HeaderTitle>Virtual Healthcare for you</S.HeaderTitle>
       <S.HeaderText>
         Trafalgar provides progressive, and affordable healthcare, accessible on
@@ -15,9 +15,9 @@ const Header = () => (
         <Button isBlue>Consult now</Button>
       </S.ButtonContainer>
     </S.HeaderDescription>
-    <S.HeaderImageConatiner>
+    <S.HeaderImageContainer>
       <S.HeaderImage src={illustration} />
-    </S.HeaderImageConatiner>
+    </S.HeaderImageContainer>
   </S.HeaderContainer>
 );
 

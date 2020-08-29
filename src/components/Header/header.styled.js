@@ -3,13 +3,14 @@ import styled from "styled-components";
 export const HeaderContainer = styled.div`
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
+  justify-content: space-around;
   margin: ${({ isHeader }) => (isHeader ? "100px 0 50px 0" : "120px 0")};
 `;
 
 export const HeaderDescription = styled.div`
-  max-width: 445px;
-  max-height: 338px;
+  margin-top: ${({ isHeader }) => (isHeader ? "10%" : "0")};
+  margin-right: ${({ isLeft }) => (isLeft ? "10%" : "0")};
+  margin-left: ${({ isLeft }) => (isLeft ? "0" : "10%")};
 `;
 
 export const HeaderTitle = styled.div`
@@ -34,10 +35,7 @@ export const ButtonContainer = styled.div`
   margin-top: 30px;
 `;
 
-export const HeaderImageConatiner = styled.div`
-  max-width: 693px;
-  max-height: 598px;
-`;
+export const HeaderImageContainer = styled.div``;
 
 export const HeaderImage = styled.img`
   object-fit: cover;

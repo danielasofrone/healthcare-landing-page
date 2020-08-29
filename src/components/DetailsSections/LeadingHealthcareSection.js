@@ -6,10 +6,10 @@ import leading_healthcare_illustration from "../../assets/img/leading_healthcare
 
 const LeadingHealthcareSection = () => (
   <S.HeaderContainer>
-    <S.HeaderImageConatiner>
+    <S.HeaderImageContainer>
       <S.HeaderImage src={leading_healthcare_illustration} />
-    </S.HeaderImageConatiner>
-    <S.HeaderDescription>
+    </S.HeaderImageContainer>
+    <S.HeaderDescription isRight>
       <S.HeaderTitle>Leading healthcare providers</S.HeaderTitle>
       <C.LimitingLine />
       <S.HeaderText>

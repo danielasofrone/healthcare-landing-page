@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CardContainer = styled.div`
+export const ServicesCardContainer = styled.div`
   min-width: 200px;
   min-height: 200px;
   max-width: 350px;
@@ -13,13 +13,13 @@ export const CardContainer = styled.div`
   display: flex;
   flex-direction: column;
 `;
-export const CardImage = styled.div`
+export const ServicesCardImage = styled.div`
   width: 92px;
   height: 90px;
   margin-bottom: 30px;
 `;
 
-export const CardTitle = styled.div`
+export const ServicesCardTitle = styled.div`
   font-family: "Mulish";
   font-weight: bold;
   font-size: 24px;
@@ -29,7 +29,7 @@ export const CardTitle = styled.div`
   cursor: pointer;
 `;
 
-export const CardDescription = styled.div`
+export const ServicesCardDescription = styled.div`
   font-family: "Mulish";
   font-weight: 300;
   font-size: 16px;

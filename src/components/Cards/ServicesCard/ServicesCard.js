@@ -1,15 +1,15 @@
 import React from "react";
-import * as S from "./servicesCard.styled";
+import * as S from "../ServicesCard/servicesCard.styled";
 import PropTypes from "prop-types";
 
 const ServicesCard = ({ image, title, text }) => (
-  <S.CardContainer>
-    <S.CardImage>
+  <S.ServicesCardContainer>
+    <S.ServicesCardImage>
       <img src={image} alt="Card image" />
-    </S.CardImage>
-    <S.CardTitle>{title}</S.CardTitle>
-    <S.CardDescription>{text}</S.CardDescription>
-  </S.CardContainer>
+    </S.ServicesCardImage>
+    <S.ServicesCardTitle>{title}</S.ServicesCardTitle>
+    <S.ServicesCardDescription>{text}</S.ServicesCardDescription>
+  </S.ServicesCardContainer>
 );
 
 ServicesCard.propTypes = {

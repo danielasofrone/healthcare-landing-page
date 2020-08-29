@@ -1,15 +1,15 @@
 import React from "react";
 import * as S from "./services.styled";
 import vector from "../../assets/img/vector.svg";
-import ServicesCard from "../Cards/ServicesCard";
+import ServicesCard from "../Cards/ServicesCard/ServicesCard";
 import Button from "../Button/Button";
 import { servicesCards } from "./cardsData";
 
 const Services = () => (
   <>
-    <div>
+    {/* <div>
       <S.DecorationBackground src={vector}></S.DecorationBackground>
-    </div>
+    </div> */}
     <S.Wrapper>
       <S.ServicesTitle>Our services</S.ServicesTitle>
       <S.LimitingLine isServices />
