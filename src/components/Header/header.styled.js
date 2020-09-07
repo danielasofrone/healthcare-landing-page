@@ -40,3 +40,8 @@ export const HeaderImageContainer = styled.div``;
 export const HeaderImage = styled.img`
   object-fit: cover;
 `;
+
+// @media (min-width: 576px) {
+//   flex-direction: column;
+//   margin: 120px 70px;
+// }

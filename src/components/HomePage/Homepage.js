@@ -6,6 +6,7 @@ import Services from "../Services/Services";
 import LeadingHealthcareSection from "../DetailsSections/LeadingHealthcareSection";
 import DownloadApp from "../DetailsSections/DownloadApp";
 import LatestSection from "../LatestSection/LatestSection";
+import Footer from "../Footer/Footer";
 const Homepage = () => (
   <S.Wrapper>
     <NavigationBar />
@@ -14,6 +15,7 @@ const Homepage = () => (
     <LeadingHealthcareSection />
     <DownloadApp />
     <LatestSection />
+    <Footer />
   </S.Wrapper>
 );
 
