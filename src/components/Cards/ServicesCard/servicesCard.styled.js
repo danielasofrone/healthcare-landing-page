@@ -27,6 +27,10 @@ export const ServicesCardTitle = styled.div`
   color: #000000;
   margin-bottom: 10px;
   cursor: pointer;
+  &:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s;
+  }
 `;
 
 export const ServicesCardDescription = styled.div`

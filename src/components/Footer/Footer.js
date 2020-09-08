@@ -24,30 +24,30 @@ const Footer = () => (
       </S.InfoTextTrafalgar>
       <S.CompanyColumn>
         <S.ColumnTitle>Company</S.ColumnTitle>
-        <S.ColumnText>
-          <div>About</div>
-          <div>Testimonials</div>
-          <div>Find a doctor</div>
-          <div>Apps</div>
-        </S.ColumnText>
+        <div>
+          <S.ColumnText>About</S.ColumnText>
+          <S.ColumnText>Testimonials</S.ColumnText>
+          <S.ColumnText>Find a doctor</S.ColumnText>
+          <S.ColumnText>Apps</S.ColumnText>
+        </div>
       </S.CompanyColumn>
       <S.RegionColumn>
         <S.ColumnTitle>Region</S.ColumnTitle>
-        <S.ColumnText>
-          <div>Indonesia</div>
-          <div>Singapore</div>
-          <div>Hongkong</div>
-          <div>Canada</div>
-        </S.ColumnText>
+        <div>
+          <S.ColumnText>Indonesia</S.ColumnText>
+          <S.ColumnText>Singapore</S.ColumnText>
+          <S.ColumnText>Hongkong</S.ColumnText>
+          <S.ColumnText>Canada</S.ColumnText>
+        </div>
       </S.RegionColumn>
       <S.HelpColumn>
         <S.ColumnTitle>Help</S.ColumnTitle>
-        <S.ColumnText>
-          <div>Help center</div>
-          <div> Contact support</div>
-          <div>Instructions</div>
-          <div>How it works</div>
-        </S.ColumnText>
+        <div>
+          <S.ColumnText>Help center</S.ColumnText>
+          <S.ColumnText> Contact support</S.ColumnText>
+          <S.ColumnText>Instructions</S.ColumnText>
+          <S.ColumnText>How it works</S.ColumnText>
+        </div>
       </S.HelpColumn>
     </S.Wrapper>
   </div>

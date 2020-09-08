@@ -22,9 +22,6 @@ export const DecorationDots = styled.img`
   opacity: 0.6;
   background-size: contain;
   background-repeat: no-repeat;
-  /* z-index: 9999;
-  bottom: 0;
-  left: 0; */
 `;
 
 export const InfoTextTrafalgar = styled.div`
@@ -80,6 +77,11 @@ export const ColumnTitle = styled.div`
   line-height: 60px;
   color: #ffffff;
   margin-bottom: 30px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s;
+  }
 `;
 
 export const ColumnText = styled.div`
@@ -89,4 +91,9 @@ export const ColumnText = styled.div`
   font-size: 18px;
   line-height: 38px;
   color: #ffffff;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s;
+  }
 `;

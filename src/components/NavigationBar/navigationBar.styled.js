@@ -20,10 +20,18 @@ export const NavigationLink = styled.div`
   opacity: 0.5;
   margin-left: 20px;
   cursor: pointer;
+  &:hover {
+    color: #7d7987;
+    transition: color 0.3s;
+  }
 `;
 export const LogoContainer = styled.img`
   width: 160px;
   height: 41px;
+  &:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s;
+  }
 `;
 
 export const RightSide = styled.div`

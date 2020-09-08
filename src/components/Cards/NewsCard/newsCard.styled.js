@@ -28,6 +28,10 @@ export const NewsCardTitle = styled.div`
   color: #000000;
   margin-bottom: 10px;
   cursor: pointer;
+  &:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s;
+  }
 `;
 
 export const NewsCardDescription = styled.div`
@@ -45,6 +49,10 @@ export const ReadMoreLink = styled.div`
   cursor: pointer;
   color: #4089ed;
   text-align: center;
+  &:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s;
+  }
 `;
 
 export const LinkText = styled.div`
