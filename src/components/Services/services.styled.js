@@ -4,7 +4,6 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin: 120px 140px;
-  z-index: 99;
 `;
 
 export const DecorationBackground = styled.img`
@@ -19,6 +18,16 @@ export const DecorationBackground = styled.img`
   background-size: contain;
   z-index: 1;
   background-repeat: no-repeat;
+`;
+
+export const DecorationBackgroundDots = styled.img`
+  position: absolute;
+  opacity: 0.6;
+  background-size: contain;
+  z-index: 1;
+  background-repeat: no-repeat;
+  right: 100px;
+  margin-top: 35%;
 `;
 
 export const ServicesTitle = styled.div`
@@ -54,6 +63,7 @@ export const CardsContainer = styled.div`
   gap: 25px;
   margin-top: 20px;
   overflow-x: auto;
+  z-index: 99;
   @media (min-width: 868px) {
     grid-template-columns: repeat(3, 1fr);
     overflow-x: initial;

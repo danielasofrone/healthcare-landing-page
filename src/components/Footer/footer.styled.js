@@ -7,6 +7,26 @@ export const Wrapper = styled.div`
   background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
 `;
 
+export const DecorationBackgroundDots = styled.img`
+  position: absolute;
+  opacity: 0.6;
+  background-size: contain;
+  z-index: 1;
+  background-repeat: no-repeat;
+  right: 7%;
+  margin-top: -5%;
+`;
+
+export const DecorationDots = styled.img`
+  position: absolute;
+  opacity: 0.6;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* z-index: 9999;
+  bottom: 0;
+  left: 0; */
+`;
+
 export const InfoTextTrafalgar = styled.div`
   display: flex;
   flex-direction: column;

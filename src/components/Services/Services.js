@@ -1,13 +1,15 @@
 import React from "react";
 import * as S from "./services.styled";
-import vector from "../../assets/img/vector.svg";
+import vector_left from "../../assets/img/vector_left.svg";
 import ServicesCard from "../Cards/ServicesCard/ServicesCard";
 import Button from "../Button/Button";
 import { servicesCards } from "./cardsData";
+import element_dots from "../../assets/img/element_dots.svg";
 
 const Services = () => (
   <div>
-    <S.DecorationBackground src={vector} />
+    <S.DecorationBackground src={vector_left} />
+    <S.DecorationBackgroundDots src={element_dots} />
     <S.Wrapper>
       <S.ServicesTitle>Our services</S.ServicesTitle>
       <S.LimitingLine isServices />
