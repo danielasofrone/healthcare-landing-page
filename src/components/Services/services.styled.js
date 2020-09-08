@@ -3,16 +3,11 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 120px 70px;
+  margin: 120px 140px;
   z-index: 99;
 `;
 
-export const DecorationBackgroundContainer = styled.div`
-  width: 1120px;
-  height: 970px;
-`;
-
-export const DecorationBackground = styled.svg`
+export const DecorationBackground = styled.img`
   width: 940px;
   height: 670px;
   display: block;

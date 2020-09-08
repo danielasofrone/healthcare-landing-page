@@ -6,10 +6,8 @@ import Button from "../Button/Button";
 import { servicesCards } from "./cardsData";
 
 const Services = () => (
-  <>
-    {/* <div>
-      <S.DecorationBackground src={vector}></S.DecorationBackground>
-    </div> */}
+  <div>
+    <S.DecorationBackground src={vector} />
     <S.Wrapper>
       <S.ServicesTitle>Our services</S.ServicesTitle>
       <S.LimitingLine isServices />
@@ -33,7 +31,7 @@ const Services = () => (
         <Button>Learn more</Button>
       </S.ButtonContainer>
     </S.Wrapper>
-  </>
+  </div>
 );
 
 export default Services;

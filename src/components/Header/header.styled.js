@@ -4,7 +4,15 @@ export const HeaderContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: ${({ isHeader }) => (isHeader ? "100px 0 50px 0" : "120px 0")};
+  z-index: 99;
+  margin: ${({ isHeader }) =>
+    isHeader ? "100px 100px 50px 100px" : "120px 100px"};
+`;
+
+export const BackgroundSvg = styled.img`
+  left: 0;
+  margin-top: 30px;
+  z-index: 1;
 `;
 
 export const HeaderDescription = styled.div`

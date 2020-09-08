@@ -2,9 +2,8 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   top: 0;
-  width: 100%;
+  margin: 30px 100px;
   height: 40px;
-  margin-top: 30px;
   display: flex;
   justify-content: space-between;
 `;

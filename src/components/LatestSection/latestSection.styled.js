@@ -27,7 +27,6 @@ export const SectionDescription = styled.div`
 `;
 
 export const CardsContainer = styled.div`
-  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;

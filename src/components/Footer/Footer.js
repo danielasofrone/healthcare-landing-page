@@ -1,17 +1,20 @@
 import React from "react";
 import * as S from "./footer.styled";
-import logo from "../../assets/icons/logo.svg";
+import logo_white from "../../assets/icons/logo_white.svg";
 
 const Footer = () => (
   <S.Wrapper>
     <S.InfoTextTrafalgar>
-      <img src={logo} alt="Company logo" />
+      <S.CompanyLogo>
+        <img src={logo_white} alt="Company logo" />
+      </S.CompanyLogo>
       <S.CompanyDescription>
         Trafalgar provides progressive, and affordable healthcare, accessible on
-        mobile and online for everyone ©Trafalgar PTY LTD
+        mobile and online for everyone
       </S.CompanyDescription>
       <S.Copyright>
-        {String(new Date().getFullYear())}. All rights reserved
+        ©Trafalgar PTY LTD {String(new Date().getFullYear())}. All rights
+        reserved
       </S.Copyright>
     </S.InfoTextTrafalgar>
     <S.CompanyColumn>
