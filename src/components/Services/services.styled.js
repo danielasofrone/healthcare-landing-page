@@ -50,7 +50,8 @@ export const ServicesDescription = styled.div`
 `;
 
 export const LimitingLine = styled.div`
-  border-bottom: 2px solid #000;
+  border-bottom: ${({ isServices }) =>
+    isServices ? "2px solid #fff;" : "2px solid #000;"};
   height: auto;
   width: 56px;
   margin: ${({ isServices }) => (isServices ? "35px auto" : "35px 0")};

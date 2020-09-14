@@ -21,7 +21,8 @@ export const NavigationLink = styled.div`
   margin-left: 20px;
   cursor: pointer;
   &:hover {
-    color: #7d7987;
+    color: #000;
+    opacity: 1;
     transition: color 0.3s;
   }
 `;

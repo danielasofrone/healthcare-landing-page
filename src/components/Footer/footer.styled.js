@@ -2,9 +2,12 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 100px;
   background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
 `;
 
 export const DecorationBackgroundDots = styled.img`
@@ -27,7 +30,7 @@ export const DecorationDots = styled.img`
 export const InfoTextTrafalgar = styled.div`
   display: flex;
   flex-direction: column;
-  flex: 3;
+  flex: 1;
   margin-right: 150px;
 `;
 
@@ -50,18 +53,45 @@ export const Copyright = styled.div`
   font-size: 16px;
   line-height: 28px;
   color: #ffffff;
+  margin-bottom: 30px;
+  @media (min-width: 768px) {
+    margin-bottom: 0;
+  }
+`;
+
+export const ColumnsWrapper = styled.div`
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  @media (min-width: 576px) {
+    flex-direction: row;
+  }
 `;
 
 export const CompanyColumn = styled.div`
   display: flex;
   flex-direction: column;
   flex: 1;
+  margin-right: 0;
+  @media (min-width: 768px) {
+    margin-right: 30px;
+  }
+  @media (min-width: 1200px) {
+    margin-right: 0;
+  }
 `;
 
 export const RegionColumn = styled.div`
   display: flex;
   flex-direction: column;
   flex: 1;
+  margin-right: 0;
+  @media (min-width: 768px) {
+    margin-right: 30px;
+  }
+  @media (min-width: 1200px) {
+    margin-right: 0;
+  }
 `;
 
 export const HelpColumn = styled.div`
@@ -76,11 +106,9 @@ export const ColumnTitle = styled.div`
   font-size: 20px;
   line-height: 60px;
   color: #ffffff;
-  margin-bottom: 30px;
-  cursor: pointer;
-  &:hover {
-    opacity: 0.7;
-    transition: opacity 0.3s;
+  margin: 30px 0 10px 0;
+  @media (min-width: 576px) {
+    margin: 0 0 30px 0;
   }
 `;
 
@@ -93,7 +121,6 @@ export const ColumnText = styled.div`
   color: #ffffff;
   cursor: pointer;
   &:hover {
-    opacity: 0.7;
-    transition: opacity 0.3s;
+    text-decoration: underline;
   }
 `;

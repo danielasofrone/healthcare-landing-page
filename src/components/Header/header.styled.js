@@ -2,10 +2,14 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: ${({ isHeader }) =>
-    isHeader ? "100px 100px 50px 100px" : "120px 100px"};
+  flex-direction: column;
+  justify-content: initial;
+  @media (min-width: 576px) {
+    flex-direction: row;
+    /* justify-content: space-around; */
+    margin: ${({ isHeader }) =>
+      isHeader ? "100px 100px 50px 100px" : "120px 100px"};
+  }
 `;
 
 export const BackgroundSvg = styled.img`
@@ -33,6 +37,7 @@ export const HeaderDescription = styled.div`
   margin-right: ${({ isLeft }) => (isLeft ? "10%" : "0")};
   margin-left: ${({ isLeft }) => (isLeft ? "0" : "10%")};
   z-index: 99;
+  width: 100%;
 `;
 
 export const HeaderTitle = styled.div`
@@ -62,13 +67,14 @@ export const ButtonContainer = styled.div`
 
 export const HeaderImageContainer = styled.div`
   z-index: 99;
+  width: 100%;
+  min-height: 300px;
 `;
 
 export const HeaderImage = styled.img`
   object-fit: cover;
+  min-width: 400px;
+  @media (min-width: 576px) {
+    min-width: 690px;
+  }
 `;
-
-// @media (min-width: 576px) {
-//   flex-direction: column;
-//   margin: 120px 70px;
-// }

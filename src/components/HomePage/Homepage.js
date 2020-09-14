@@ -5,9 +5,10 @@ import Header from "../Header/Header";
 import Services from "../Services/Services";
 import LeadingHealthcareSection from "../DetailsSections/LeadingHealthcareSection";
 import DownloadApp from "../DetailsSections/DownloadApp";
+import ImageSlider from "../ImageSlider/ImageSlider";
 import LatestSection from "../LatestSection/LatestSection";
-// import ImageSlider from "../ImageSlider/ImageSlider";
 import Footer from "../Footer/Footer";
+
 const Homepage = () => (
   <S.Wrapper>
     <NavigationBar />
@@ -15,8 +16,8 @@ const Homepage = () => (
     <Services />
     <LeadingHealthcareSection />
     <DownloadApp />
+    <ImageSlider />
     <LatestSection />
-    {/* <ImageSlider /> */}
     <Footer />
   </S.Wrapper>
 );
