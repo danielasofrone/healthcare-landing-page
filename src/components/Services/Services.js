@@ -8,8 +8,8 @@ import element_dots from "../../assets/img/element_dots.svg";
 
 const Services = () => (
   <div>
-    <S.DecorationBackground src={vector_left} />
-    <S.DecorationBackgroundDots src={element_dots} />
+    {/* <S.DecorationBackground src={vector_left} />
+    <S.DecorationBackgroundDots src={element_dots} /> */}
     <S.Wrapper>
       <S.ServicesTitle>Our services</S.ServicesTitle>
       <S.LimitingLine isServices />

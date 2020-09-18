@@ -6,9 +6,7 @@ export const HeaderContainer = styled.div`
   justify-content: initial;
   @media (min-width: 576px) {
     flex-direction: row;
-    /* justify-content: space-around; */
-    margin: ${({ isHeader }) =>
-      isHeader ? "100px 100px 50px 100px" : "120px 100px"};
+    margin: ${({ isHeader }) => (isHeader ? "10% 10% 5% 10%" : "12% 10%")};
   }
 `;
 

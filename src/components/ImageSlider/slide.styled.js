@@ -1,17 +1,16 @@
 import styled from "styled-components";
-import founder from "../../assets/img/founder.svg";
 
 export const Wrapper = styled.div`
-  margin: 120px 140px;
+  margin: 0 10%;
 `;
 
 export const SliderPage = styled.div`
-  height: 425px;
+  max-height: 425px;
   background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
   border-radius: 24px;
   color: #fff;
   text-align: center;
-  padding: 50px 70px;
+  padding: 70px 80px 80px 0;
 `;
 
 export const SlideTitle = styled.div`
@@ -23,17 +22,17 @@ export const SlideTitle = styled.div`
 `;
 
 export const BottomContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-between;
   flex-direction: column;
-  margin-top: 10%;
+  margin-top: 8%;
   @media (min-width: 768px) {
     flex-direction: row;
   }
 `;
 export const FounderInfo = styled.div`
-  display: flex;
-  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 `;
 
 export const ImageContainer = styled.img`
@@ -44,6 +43,7 @@ export const ImageContainer = styled.img`
   border-radius: 50%;
   border: 1px solid white;
   background-color: #fff;
+  margin-left: 120px;
 `;
 
 export const FounderText = styled.div`
@@ -58,7 +58,6 @@ export const FounderName = styled.div`
   font-size: 22px;
   line-height: 48px;
   color: #ffffff;
-  margin-bottom: 10px;
 `;
 export const FounderDescription = styled.div`
   font-family: "Mulish";
@@ -69,6 +68,8 @@ export const FounderDescription = styled.div`
 `;
 
 export const DescriptionContainer = styled.div`
+  padding-left: 10%;
+  text-align: left;
   flex: 1;
   font-family: "Mulish";
   font-weight: normal;
