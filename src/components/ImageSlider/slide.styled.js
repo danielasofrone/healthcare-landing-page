@@ -77,3 +77,29 @@ export const DescriptionContainer = styled.div`
   line-height: 30px;
   color: rgba(255, 255, 255, 0.9);
 `;
+
+export const Container = styled.div`
+  .slick-prev {
+    left: 40%;
+    position: absolute;
+    top: 108%;
+  }
+  .slick-next {
+    right: 40%;
+    position: absolute;
+    top: 108%;
+  }
+  .slick-prev,
+  .slick-next {
+    width: 28px;
+    color: #000;
+  }
+  .slick-dots li button:before {
+    top: 20px;
+    color: #5b9bf3;
+    opacity: 0.3;
+  }
+  .slick-dots li.slick-active button:before {
+    color: #5b9bf3;
+  }
+`;

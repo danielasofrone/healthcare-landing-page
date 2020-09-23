@@ -36,6 +36,9 @@ export const LogoContainer = styled.img`
 `;
 
 export const RightSide = styled.div`
-  display: flex;
-  flex-direction: row;
+  display: none;
+  @media (min-width: 868px) {
+    display: flex;
+    flex-direction: row;
+  }
 `;

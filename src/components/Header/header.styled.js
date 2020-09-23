@@ -66,13 +66,13 @@ export const ButtonContainer = styled.div`
 export const HeaderImageContainer = styled.div`
   z-index: 99;
   width: 100%;
-  min-height: 300px;
+  /* min-height: 300px; */
 `;
 
 export const HeaderImage = styled.img`
   object-fit: cover;
-  min-width: 400px;
+  /* min-width: 400px;
   @media (min-width: 576px) {
     min-width: 690px;
-  }
+  } */
 `;
